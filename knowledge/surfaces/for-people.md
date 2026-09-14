@@ -4,16 +4,17 @@ title: The human surface
 description: Pages for reading, reviewing and sharing the record.
 status: stable
 order: 5
-generated: { by: "ksor-starter/0.0.60", at: 2026-08-25T00:00:00Z }
+generated: { by: "human:hanif", at: 2026-09-14T20:03:28Z }
 ksor:
   audience: [public]
-  approval: { by: "ksor-starter/0.0.60", at: 2026-08-25T00:00:00Z }
+  approval: { by: "human:hanif", at: 2026-09-14T20:03:28Z }
 ---
 
 A static site renders every governed document at a route derived from its path,
 with the governance it declares.
 
-## What a page carries
+
+### What a page carries
 
 Under each title the page shows the facts the document declares about itself —
 who owns it, when it took effect — and lists every source it came from at the

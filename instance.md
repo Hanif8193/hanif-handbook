@@ -1,8 +1,8 @@
 ---
 format: 2
 name: hanif-handbook
-title: KSoR
-description: What a Knowledge System of Record is, how a project climbs the governance ladder, and which surfaces publish the same governed knowledge.
+title: M&E Maintenance Engineer Handbook
+description: How to diagnose electrical and mechanical faults in the unit — the governed record for the M&E maintenance engineer.
 toolchain:
   requires: ">=0.0.60"
   scaffolded: "0.0.60"
@@ -28,38 +28,19 @@ database:
 # version: 0.1.0
 ---
 
-This record is authoritative for what a Knowledge System of Record is, how a
-project climbs the governance ladder, and which surfaces the same governed
-knowledge is published through. It does not cover the CLI's release history or
-the internals of the retrieval kernel.
+This record is authoritative for diagnosing electrical and mechanical faults
+in the unit — the M&E maintenance engineer's knowledge. It covers only that:
+diagnosing electrical and mechanical faults in the unit. The owner stated no
+other exclusions, and anything this record does not answer is out of scope.
 
-Write and govern the knowledge once; every surface here derives from it. When a
-slide deck, a wiki page or a model's memory disagrees with this record, this
-record wins.
+Answer only from this record. A question the record does not cover is a
+correct place to decline: say plainly that it is not in this corpus, and do
+not answer from general knowledge. A missing fact on a covered question is an
+open question for the owner, never a guess to make here. Two sources that
+disagree stay two stated claims until the owner decides.
 
-## This is a starter, and it is yours to replace
-
-Everything above describes KSoR itself. It ships filled in so that a fresh
-project has a real governed corpus on the first `npm run dev` — five approved
-documents, three of them inside a folder, and one carrying a summary
-companion — instead of an empty shelf and a placeholder.
-The documents live in `knowledge/`; delete them as your own knowledge arrives.
-
-Be deliberate about replacing it, because a starter that describes the wrong
-thing describes it _everywhere_. Three things here are read by every surface:
-
-- **`title:`** is the display title — the human name every page leads with and
-  the heading of the record's root index. The machine identity stays
-  `hanif-handbook` in `name:`, and that is what citations and `llms.txt` use.
-- **`description:`** is one sentence that seeds `llms.txt` and the MCP
-  discovery document.
-- **This body** is the MCP server's instructions, handed in full to every
-  connecting agent; its first paragraph is this record's scope, which the site
-  publishes. A record published with it unchanged will tell an agent — quite
-  accurately, and quite uselessly for you — that it is authoritative for what
-  a Knowledge System of Record is.
-
-Ask your coding agent to run the **intake interview** (it knows how — see
-`.agents/skills/intake-interview/`), answer its questions, and let it write
-this document with you. Replace those three and every surface follows,
-because every surface reads them from here.
+The record is owned and maintained by Mohammad Hanif Memon (`human:hanif`).
+He approves documents for publication and may take documents down; approval
+is his act alone. It is read by people and by agents alike, and every
+document is `public` — every reader sees every document. No source documents
+are registered yet; they arrive with the source material.
