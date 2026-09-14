@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:207cddae7a860c9e7d2001a8243bdfe412fff92e9c446bf5806df6410a8ebb34",
+  "build_id": "sha256:c44f93f0a2a062a89a1d35cc1a9ee3dc30c6dc12e618b716b24d9108abcb0a8e",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "70cbdc342328b7aaf842f87c538049fd08818637",
+  "source_commit": "5bde2e6b5502ce73e04c5f6ca4a719a816ec9f48",
   "dirty": true,
-  "as_of": "2026-09-14T20:04:35.478Z",
+  "as_of": "2026-09-14T21:23:37.680Z",
   "drafts": "hidden",
   "instance_sha256": "ba752ce1c37cc59ffb9c7455af993c528fcff1945f8e3d0e14f8acbd765791c9",
   "policy_sha256": "e208931dfb06d234842af0dd188b740317f04e802513c06feb3f20c8e71ad04d",
@@ -28,6 +28,17 @@
     {
       "path": "governance-ladder.md",
       "sha256": "c0dc26f31fcbb19128db8bd3e8aca068439814a784e889bf5c35827fc43479a0",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "machines/then-airflow-syn-g2/electrical.md",
+      "sha256": "0a4434fb42aefd9476b891a3c5c06d8cb8d40fcc6dcdb81950686152382f0115",
       "status": "stable",
       "audience": [
         "public"
@@ -91,7 +102,15 @@
   "indexes": [
     {
       "path": "index.md",
-      "sha256": "c93835ddc743a16ade7d5b996ea66c78a4301a1008c662e40bfe4f896fa3b813"
+      "sha256": "90f6d9a317f73247ef7f1ea3ddbde7b35f23f568d0d2f1a7fdd6c812e3266799"
+    },
+    {
+      "path": "machines/index.md",
+      "sha256": "076257400e7a8226a6085884dc2e820b42e18f0bcc470e317f20ae9233273b91"
+    },
+    {
+      "path": "machines/then-airflow-syn-g2/index.md",
+      "sha256": "803fa3f8a474a0b0182b7792029efe4e6c2b43f465d5ca3644a5e895d660b219"
     },
     {
       "path": "surfaces/index.md",
@@ -101,8 +120,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "093911e8e0d5377a4de44bcbbeb5f83cb375010ccdd73d57d49862ceca714b4f",
-      "files": 8
+      "sha256": "eb4625912dad7d6a0df64399eb55de0c7b0cbf8ea40bab0071bb001cc4d61b28",
+      "files": 11
     }
   ]
 }
