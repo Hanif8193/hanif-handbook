@@ -3,8 +3,8 @@
   "services": {
     "site": {
       "root": ".",
-      "installCommand": "if [ \"$(git rev-parse --is-shallow-repository)\" = \"true\" ]; then git fetch --unshallow; fi && npm install",
-      "buildCommand": "npm run build",
+      "installCommand": "npm install",
+      "buildCommand": "if [ \"$(git rev-parse --is-shallow-repository)\" = \"true\" ]; then git fetch --unshallow \"https://${VERCEL_GIT_PROVIDER}.com/${VERCEL_GIT_REPO_OWNER}/${VERCEL_GIT_REPO_SLUG}.git\" \"${VERCEL_GIT_COMMIT_SHA}\"; fi; npm run build",
       "outputDirectory": "system/site/out"
     },
     "door": {
