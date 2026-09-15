@@ -1,5 +1,6 @@
 # Then airflow syn g2
 
+* [THEN-Airflow SYN G2 / SYN1200 G2 — maintenance overview](overview.md) - Machine-level entry point for the THEN-Airflow SYN G2 / SYN1200 G2 dyeing machine, order 37029530-31 — what each specialized maintenance record covers, how to use them for diagnosing electrical and mechanical faults, and the knowledge boundaries that remain outside the corpus.
 * [THEN-Airflow SYN G2 / SYN1200 G2 — electrical control and diagnostic signals](electrical.md) - Electrical control, fault-signal, interlock and analog-signal references for the SYN G2 / SYN1200 G2 dyeing machine, read from the UXLA00379 drawing set.
 * [THEN-Airflow SYN G2 / SYN1200 G2 — safety and diagnostic hazards](safety.md) - Manufacturer-documented electrical, pressure, temperature, mechanical, chemical and emergency-stop hazards of the THEN-Airflow SYN G2 / SYN1200 G2 dyeing machine, as context for diagnosing electrical and mechanical faults in the unit.
 * [THEN-Airflow SYN G2 / SYN1200 G2 — installation context](installation.md) - Manufacturer-recorded installation context for the THEN-Airflow SYN G2 / SYN1200 G2 dyeing machine — layout, foundation, utility and connection requirements, and the installation-related conditions relevant to maintenance diagnosis, read from the FONG'S EUROPE IB29530 installation drawing set and the THEN manual and safety guideline.

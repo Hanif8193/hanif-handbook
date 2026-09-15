@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:8557441b0bef349a0378310b4482b8d6e656d1d5cac6ed2223f3efe1078e6f4d",
+  "build_id": "sha256:a26b2a839b390ad0d131c82f57c4fc730caa111e36b8dfe31b53c265def45a3a",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "8f0920228d4248b34d0ff5bda500b8c6f1399784",
+  "source_commit": "51ceef4f6ba9e722c11f540d9e10055c9377b22e",
   "dirty": true,
-  "as_of": "2026-09-15T13:24:55.613Z",
+  "as_of": "2026-09-15T13:38:47.505Z",
   "drafts": "hidden",
   "instance_sha256": "ba752ce1c37cc59ffb9c7455af993c528fcff1945f8e3d0e14f8acbd765791c9",
   "policy_sha256": "e208931dfb06d234842af0dd188b740317f04e802513c06feb3f20c8e71ad04d",
@@ -72,6 +72,17 @@
     {
       "path": "machines/then-airflow-syn-g2/operation.md",
       "sha256": "a571594ab398383a0713bc999d4868e8981396a4767dc6586d3635ff818ae123",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "machines/then-airflow-syn-g2/overview.md",
+      "sha256": "db1719a48f83c806bde07b8590e7ce56af68dd224636fb036b0a767d938aa611",
       "status": "stable",
       "audience": [
         "public"
@@ -146,7 +157,7 @@
   "indexes": [
     {
       "path": "index.md",
-      "sha256": "90f6d9a317f73247ef7f1ea3ddbde7b35f23f568d0d2f1a7fdd6c812e3266799"
+      "sha256": "6d3a75fd863e992ab81b4876e81a0b01b6f4261f877912256a322c213f99931a"
     },
     {
       "path": "machines/index.md",
@@ -154,7 +165,7 @@
     },
     {
       "path": "machines/then-airflow-syn-g2/index.md",
-      "sha256": "1748872ab1afb8e221575ed7d191e59e837c7348328a4c67913186d7bfd01f7f"
+      "sha256": "50d2c5799a82f36056c86d528f114f5017a8d2ab0da05fb9628a3662883fec9b"
     },
     {
       "path": "surfaces/index.md",
@@ -164,8 +175,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "a2374453326d418fe6f781b40cba5b16701b6a653a418b16034ff3481c1618f7",
-      "files": 15
+      "sha256": "ad1ad9d5843effeb09a8e08467c1a25cc5bd48d8f9f0d5dc7632c1b4c226b262",
+      "files": 16
     }
   ]
 }
