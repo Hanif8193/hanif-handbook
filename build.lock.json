@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:d0548e220865e90ac33d166e2cd5f0fa2b805713ecee1edac0d34171d55999db",
+  "build_id": "sha256:8557441b0bef349a0378310b4482b8d6e656d1d5cac6ed2223f3efe1078e6f4d",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "c2c9fb5e152d5e960d6a724f50ae4080d220f65c",
+  "source_commit": "8f0920228d4248b34d0ff5bda500b8c6f1399784",
   "dirty": true,
-  "as_of": "2026-09-15T10:00:35.221Z",
+  "as_of": "2026-09-15T13:24:55.613Z",
   "drafts": "hidden",
   "instance_sha256": "ba752ce1c37cc59ffb9c7455af993c528fcff1945f8e3d0e14f8acbd765791c9",
   "policy_sha256": "e208931dfb06d234842af0dd188b740317f04e802513c06feb3f20c8e71ad04d",
@@ -39,6 +39,17 @@
     {
       "path": "machines/then-airflow-syn-g2/electrical.md",
       "sha256": "0a4434fb42aefd9476b891a3c5c06d8cb8d40fcc6dcdb81950686152382f0115",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "machines/then-airflow-syn-g2/injection-system.md",
+      "sha256": "58b0d50423e3d5f16ec84bd2aa7a5c6f72a046e2972adcd7ac4a639f62bbf6eb",
       "status": "stable",
       "audience": [
         "public"
@@ -143,7 +154,7 @@
     },
     {
       "path": "machines/then-airflow-syn-g2/index.md",
-      "sha256": "5771304a35655839ce0105da178939a19ab5902959cf6cf70ce179ce8e5d4ee5"
+      "sha256": "1748872ab1afb8e221575ed7d191e59e837c7348328a4c67913186d7bfd01f7f"
     },
     {
       "path": "surfaces/index.md",
@@ -153,8 +164,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "43e1eeeae280e181c954140ee2807eaf51b7de9979dde6fed21eb421866c36e1",
-      "files": 14
+      "sha256": "a2374453326d418fe6f781b40cba5b16701b6a653a418b16034ff3481c1618f7",
+      "files": 15
     }
   ]
 }
