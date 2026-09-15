@@ -4,7 +4,7 @@ title: THEN-Airflow SYN G2 / SYN1200 G2 — safety and diagnostic hazards
 description: Manufacturer-documented electrical, pressure, temperature, mechanical, chemical and emergency-stop hazards of the THEN-Airflow SYN G2 / SYN1200 G2 dyeing machine, as context for diagnosing electrical and mechanical faults in the unit.
 status: stable
 order: 3
-generated: { by: "human:hanif", at: 2026-09-15T08:49:26Z }
+generated: { by: "human:hanif", at: 2026-09-15T14:28:07Z }
 sources:
   - id: safety
     resource: sources/textile-machinery/特恩高溫氣流染色機SYN G2安全指引.pdf
@@ -23,7 +23,7 @@ sources:
     title: Installation scheme - utility specifications, SYN1200 G2, order 37029530-31 - FONG'S EUROPE GMBH
 ksor:
   audience: [public]
-  approval: { by: "human:hanif", at: 2026-09-15T08:49:26Z }
+  approval: { by: "human:hanif", at: 2026-09-15T14:28:07Z }
   owner: "human:hanif"
 ---
 
@@ -33,8 +33,7 @@ order 37029530-31, controller DYNET [^uxla][^then][^safety]. It exists to put
 fault diagnosis into its safety context: the hazards the operator and the
 diagnostician face when this machine is hot, pressurised, energized or loaded
 with chemicals. Nothing in this record is a work instruction for installation,
-operation, maintenance or repair, and it does not describe safe isolation. It
-is a draft record and has not been approved.
+operation, maintenance or repair, and it does not describe safe isolation.
 
 ## Confidence labels
 

@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:a26b2a839b390ad0d131c82f57c4fc730caa111e36b8dfe31b53c265def45a3a",
+  "build_id": "sha256:2d6136337452b76de701ae03a0cf6868dcfc4d719aa3267480d063048aecb582",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "51ceef4f6ba9e722c11f540d9e10055c9377b22e",
+  "source_commit": "6b316b2de90520babb718b370199a8b340c30e12",
   "dirty": true,
-  "as_of": "2026-09-15T13:38:47.505Z",
+  "as_of": "2026-09-15T14:28:31.406Z",
   "drafts": "hidden",
   "instance_sha256": "ba752ce1c37cc59ffb9c7455af993c528fcff1945f8e3d0e14f8acbd765791c9",
   "policy_sha256": "e208931dfb06d234842af0dd188b740317f04e802513c06feb3f20c8e71ad04d",
@@ -25,6 +25,15 @@
     }
   },
   "documents": [
+    {
+      "path": "components/spring-loaded-safety-valve.md",
+      "sha256": "2de7c93bd5b99c481c2f2ebf1f544fd977026da0d0a2f474a795681474247a69",
+      "status": "draft",
+      "audience": [
+        "public"
+      ],
+      "admitted": []
+    },
     {
       "path": "governance-ladder.md",
       "sha256": "c0dc26f31fcbb19128db8bd3e8aca068439814a784e889bf5c35827fc43479a0",
@@ -71,7 +80,7 @@
     },
     {
       "path": "machines/then-airflow-syn-g2/operation.md",
-      "sha256": "a571594ab398383a0713bc999d4868e8981396a4767dc6586d3635ff818ae123",
+      "sha256": "4fb9bfc83754c12b822684a24376ddd4d2b374d00230d7638696dc0a3d0ffb97",
       "status": "stable",
       "audience": [
         "public"
@@ -93,7 +102,7 @@
     },
     {
       "path": "machines/then-airflow-syn-g2/safety.md",
-      "sha256": "cfff9c5538e2473cf2de27f5afad2956861cd57f2f6b102aec4ee94c989a0ef4",
+      "sha256": "2196d42b959f7a979ee3fcb7a430b8defc9013f4e6adc3d63fdd7d2cce7a874e",
       "status": "stable",
       "audience": [
         "public"
@@ -156,8 +165,12 @@
   "assets": [],
   "indexes": [
     {
+      "path": "components/index.md",
+      "sha256": "cc1fe2150cabde5dfb8800f291c6ac9ea7330a2f45a39e1185b8c240c13ad0a7"
+    },
+    {
       "path": "index.md",
-      "sha256": "6d3a75fd863e992ab81b4876e81a0b01b6f4261f877912256a322c213f99931a"
+      "sha256": "1f7644b5aa1787592df6ee549185ad244ae3746c13c6750fa60fc1f71408660c"
     },
     {
       "path": "machines/index.md",
@@ -175,7 +188,7 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "ad1ad9d5843effeb09a8e08467c1a25cc5bd48d8f9f0d5dc7632c1b4c226b262",
+      "sha256": "2aacac57c70581af8712100575e66780d031103717c8d4a89548cf028859f0bd",
       "files": 16
     }
   ]

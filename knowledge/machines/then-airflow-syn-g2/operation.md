@@ -4,7 +4,7 @@ title: THEN-Airflow SYN G2 / SYN1200 G2 — operating context
 description: Manufacturer/source-documented operating context for the THEN-Airflow SYN G2 / SYN1200 G2 dyeing machine — machine states, operating conditions and setpoints, normal/abnormal indications and documented fault-to-operating-condition relationships useful for diagnosing electrical and mechanical faults — read from the THEN operator manual and safety guideline and the UXLA00379, IB29530/B/C and IBAK159 drawing sheets.
 status: stable
 order: 5
-generated: { by: "human:hanif", at: 2026-09-15T09:58:19Z }
+generated: { by: "human:hanif", at: 2026-09-15T14:28:07Z }
 sources:
   - id: then
     resource: sources/textile-machinery/THEN高温气流染色机SYN G2.pdf
@@ -29,7 +29,7 @@ sources:
     title: IBAK159 pneumatic-valve sheet, SYN family - FONG'S EUROPE GMBH
 ksor:
   audience: [public]
-  approval: { by: "human:hanif", at: 2026-09-15T09:58:19Z }
+  approval: { by: "human:hanif", at: 2026-09-15T14:28:07Z }
   owner: "human:hanif"
 ---
 
@@ -41,8 +41,7 @@ level, flow, circulation, injection, unloading), the normal/abnormal
 indications a diagnostician can read, and the fault symptoms the sources tie to
 specific operating conditions. It exists to put fault diagnosis into its
 operating context; nothing in it is a work instruction for installation,
-operation, commissioning or maintenance. It is a draft record and has not been
-approved.
+operation, commissioning or maintenance.
 
 ## Confidence labels
 
