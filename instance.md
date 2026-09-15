@@ -20,6 +20,9 @@ toolchain:
 # (turn it on afterwards with `ksor calibrate`, once the record is serving).
 database:
   dsn_env: KSOR_DB_URL
+retrieval:
+  vector_floor: 0.636   # calibrated 2026-09-15 on generation 2, model gemini-embedding-001/d1536, door: queries-file
+  floor_digest: 8bfb07d0e6f5
 # Where agents reach this record's MCP surface, and the semver it publishes as.
 # Both go into /.well-known/mcp/server.json, the document an agent reads to
 # DISCOVER this record instead of being told the URL. Leave mcp_url out until
