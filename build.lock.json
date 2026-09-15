@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:a47b647689d3ab156f8813e336ac5a36230a61ead960eac987099cdbb9de3695",
+  "build_id": "sha256:d0548e220865e90ac33d166e2cd5f0fa2b805713ecee1edac0d34171d55999db",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "f466f44e426f456d55cb048be77c694c5aff9c95",
+  "source_commit": "c2c9fb5e152d5e960d6a724f50ae4080d220f65c",
   "dirty": true,
-  "as_of": "2026-09-15T09:25:27.711Z",
+  "as_of": "2026-09-15T10:00:35.221Z",
   "drafts": "hidden",
   "instance_sha256": "ba752ce1c37cc59ffb9c7455af993c528fcff1945f8e3d0e14f8acbd765791c9",
   "policy_sha256": "e208931dfb06d234842af0dd188b740317f04e802513c06feb3f20c8e71ad04d",
@@ -50,6 +50,17 @@
     {
       "path": "machines/then-airflow-syn-g2/installation.md",
       "sha256": "5973dacff861c71654dd0e0f59365aacf7337cc6408d8ee432e424dd79b51019",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "machines/then-airflow-syn-g2/operation.md",
+      "sha256": "a571594ab398383a0713bc999d4868e8981396a4767dc6586d3635ff818ae123",
       "status": "stable",
       "audience": [
         "public"
@@ -132,7 +143,7 @@
     },
     {
       "path": "machines/then-airflow-syn-g2/index.md",
-      "sha256": "f8e5336256b48fce80162c2d253fbc83149d5457d314669c6e077026988104ad"
+      "sha256": "5771304a35655839ce0105da178939a19ab5902959cf6cf70ce179ce8e5d4ee5"
     },
     {
       "path": "surfaces/index.md",
@@ -142,8 +153,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "abd3e25304948cb6e08787da98837f16e3d35d042945b4ffb03127ea28747236",
-      "files": 13
+      "sha256": "43e1eeeae280e181c954140ee2807eaf51b7de9979dde6fed21eb421866c36e1",
+      "files": 14
     }
   ]
 }
